@@ -1,0 +1,25 @@
+// Spring Roo 1.1.2.RELEASE [rev fbc33bb] log opened at 2011-05-19 11:53:56
+hint
+project --topLevelPackage com.idearoo 
+// Spring Roo 1.1.2.RELEASE [rev fbc33bb] log opened at 2011-05-19 11:55:52
+hint
+persistence setup --database H2_IN_MEMORY --provider HIBERNATE  
+hint
+entity --class ~.domain.Post --testAutomatically 
+// [failed] hint
+hint
+field string --fieldName entry --notNull --sizeMax 1000
+field date postDate --notNull --type java.util.Date 
+hint
+hint controllers
+controller scaffold --class ~.domain.Post 
+controller scaffold --class ~.web.PostController
+hint controller scaffold
+help controller scaffold
+help controller scaffold
+controller scaffold ~.web
+controller scaffold --class ~.web.PostController
+help
+web mvc embed twitter --searchTerm  grails
+web mvc embed finances --stockSymbol AAPL
+web mvc embed photos --provider FLIKR --albumId 3548859587 --userId library_of_congress

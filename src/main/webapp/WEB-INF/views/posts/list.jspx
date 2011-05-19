@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_idearoo_domain_Post" items="${posts}" z="z+pdwlKyge7tfSWh1OIFhDFwGFc=">
+        <table:table data="${posts}" id="l_com_idearoo_domain_Post" path="/posts" z="8b9mFSUb2p79mpbkq182q9FGF0I=">
+            <table:column id="c_com_idearoo_domain_Post_entry" property="entry" z="bdlvpSyYQCOVONXP4IVxv1Kh/N4="/>
+            <table:column id="c_com_idearoo_domain_Post_postDate" property="postDate" z="5vAqCcNBFptiDqSnJGp0YxrqjMA="/>
+        </table:table>
+    </page:list>
+</div>

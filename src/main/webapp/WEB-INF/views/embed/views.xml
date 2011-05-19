@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE tiles-definitions PUBLIC "-//Apache Software Foundation//DTD Tiles Configuration 2.1//EN" "http://tiles.apache.org/dtds/tiles-config_2_1.dtd">
+<tiles-definitions>
+    <definition extends="default" name="embed/twitter">
+        <put-attribute name="body" value="/WEB-INF/views/embed/twitter.jspx"/>
+    </definition>
+<definition extends="default" name="embed/finances">
+        <put-attribute name="body" value="/WEB-INF/views/embed/finances.jspx"/>
+    </definition>
+<definition extends="default" name="embed/flikr">
+        <put-attribute name="body" value="/WEB-INF/views/embed/flikr.jspx"/>
+    </definition>
+</tiles-definitions>

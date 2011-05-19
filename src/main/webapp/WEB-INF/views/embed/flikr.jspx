@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:embed="urn:jsptagdir:/WEB-INF/tags/embed" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:util="urn:jsptagdir:/WEB-INF/tags/util" version="2.0">
+    <jsp:output omit-xml-declaration="yes"/>
+    <util:panel id="title" title="Flikr">
+        <!--<embed:photos albumId="3548859587" id="photos_library_of_congress_3548859587" provider="flikr" userId="library_of_congress" z="35/hSOhQ25dKHs/CmKXPw8KEmY4="/>-->
+        <embed:photos albumId="set-72157624610822392" id="photos_library_of_congress_3548859587" provider="flikr" userId="lulipie" z="35/hSOhQ25dKHs/CmKXPw8KEmY4="/>
+    </util:panel>
+</div>
